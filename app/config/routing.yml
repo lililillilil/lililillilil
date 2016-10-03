@@ -1,0 +1,7 @@
+lilil_root_path:
+    path: /
+    defaults: { _controller: AppBundle:Main:redirect }
+
+lilil_app:
+    resource: "@AppBundle/Resources/config/routing.yml"
+    type: be_simple_i18n

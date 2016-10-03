@@ -1,0 +1,5 @@
+home_page:
+    locales:
+        en: "/en/"
+        fr: "/fr/"
+    defaults: { _controller: AppBundle:Main:index }
