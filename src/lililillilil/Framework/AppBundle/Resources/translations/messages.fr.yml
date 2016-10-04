@@ -10,3 +10,14 @@ app:
 
 index:
   title: Spectacles immersifs d'images et de sons
+
+vangogh:
+  title: Van Gogh
+  content:
+    p1: >
+      Laissez-vous emporter dans le monde picturale des œuvres de Vincent Van Gogh. Découvrez
+      la Nuit étoilée, les Iris comme jamais auparavant. Plongez dans l'intimité de la Chambre
+      de Vincent ou dans l'ambiance d'Auvers sur Oise et de ses champs de blé.
+    p2: >
+      La découverte unique des œuvres de Van Gogh est mise en valeur grâce à la musique
+      classique de maîtres tels que Camille Saint-Saëns, Mozart, Bach, Delibes ou Satie.

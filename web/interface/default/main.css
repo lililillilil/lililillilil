@@ -3,26 +3,67 @@
 html, body {
     padding:0;
     background-color: #000000;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
 }
+
+section {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+section h3 {
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+.video-wrapper-16x9 {
+    max-width: 100%;
+    display: block;
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video-wrapper-16x9 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*- INTRODUCTION -*/
 
 section#introduction {
-    color: #ffffff;
     padding-top: 5em;
     padding-bottom: 5em;
-    background: white url('images/bedroom.jpg');
-    background-size: cover;
-    background-position: center center;
-}
-
-#lililillilil-logo rect {
-    fill: #ffffff;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+        url('images/bedroom.jpg');
+    background-size: cover, cover;
+    background-position: center center, center bottom;
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 2.5em;
     text-shadow: 0 0 0.1em #ffffff;
 }
 
+#lililillilil-logo rect {
+    fill: #ffffff;
+}
+
+/*- VAN GOGH -*/
+
+section#van-gogh {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+        url('images/stars.jpg');
+    background-size: cover, cover;
+    background-position: center center, center bottom;
+}

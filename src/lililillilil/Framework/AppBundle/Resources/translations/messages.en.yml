@@ -10,3 +10,14 @@ app:
 
 index:
   title: Immersive audiovisual shows.
+
+vangogh:
+  title: Van Gogh
+  content:
+    p1: >
+      Take the voyage to the land of Vincent Van Gogh master pieces like The Starry Night or
+      The Irises. Discover The Bedroom or Auvers and The Wheatfield in a unique way.
+    p2: >
+      Van Gogh immersive show lets you discover details through the journey of his art. The
+      overall representation is enhanced to a finely selected classical music like Camille
+      Saint-Saëns, Mozart, Bach, Delibes or Satie's Gnossiennes.
