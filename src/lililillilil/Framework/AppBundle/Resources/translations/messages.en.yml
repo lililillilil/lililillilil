@@ -21,3 +21,24 @@ vangogh:
       Van Gogh immersive show lets you discover details through the journey of his art. The
       overall representation is enhanced to a finely selected classical music like Camille
       Saint-Saëns, Mozart, Bach, Delibes or Satie's Gnossiennes.
+
+ldv:
+  title: Leonardo da Vinci
+  content:
+    p1: >
+      Leonardo da Vinci, the universal genius who contributed to the Arts as well to
+      the Sciences. The audience will be transported in Leonardo's masterpieces to discover
+      the incredible details that make the virtuosity of the Annunciation, the Madonnas,
+      Mona Lisa and the other works.
+    p2: >
+      The music from Monteverdi, Massive Attack, Craig Armstrong… shift the overall emotion
+      up to an incredible level.
+
+contact:
+  title: contact
+  company: lililillilil
+  email: contact
+  street: 68, rue Eugène Pons
+  zipcode: 69004
+  city: Lyon
+  country: France

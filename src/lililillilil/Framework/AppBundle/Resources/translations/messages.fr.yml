@@ -21,3 +21,23 @@ vangogh:
     p2: >
       La découverte unique des œuvres de Van Gogh est mise en valeur grâce à la musique
       classique de maîtres tels que Camille Saint-Saëns, Mozart, Bach, Delibes ou Satie.
+
+ldv:
+  title: Léonard de Vinci
+  content:
+    p1: >
+      Léonard de Vinci, le génie incontesté tant par son apport à l'art qu'aux sciences.
+      Le spectateur est plongé dans les œuvres du maître pour se confronter aux incroyables
+      détails qui font la majestuosité de l'Annonciation, des Madonnes ou de la Joconde.
+    p2: >
+      La musique de Monteverdi, Massive Attack, Craig Armstrong accentue l'émotion qui
+      ressort des chefs d'œuvre présentés.
+
+contact:
+  title: contact
+  company: lililillilil
+  email: contact
+  street: 68, rue Eugène Pons
+  zipcode: 69004
+  city: Lyon
+  country: France

@@ -18,12 +18,21 @@ section h3 {
     margin-bottom: 2em;
 }
 
+.lililillilil-type {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.append-domain::after {
+    content: "@lililillilil.com";
+}
+
 .video-wrapper-16x9 {
     max-width: 100%;
     display: block;
     position: relative;
     height: 0;
     padding-bottom: 56.25%;
+    margin-bottom: 2em ;
 }
 
 .video-wrapper-16x9 iframe {
@@ -51,7 +60,7 @@ h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 2.2em;
     text-shadow: 0 0 0.1em #ffffff;
 }
 
@@ -63,7 +72,31 @@ h2 {
 
 section#van-gogh {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+        url('images/wheatfield.jpg');
+    background-size: cover, cover;
+    background-position: center center, center bottom;
+}
+
+/*- LEONARDO DA VINCI -*/
+
+section#ldv {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+        url('images/mona-lisa.jpg');
+    background-size: cover, cover;
+    background-position: center center, center center;
+}
+
+/*- LEONARDO DA VINCI -*/
+
+section#contact {
+    font-family: sans-serif;
+    font-weight: 100;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
         url('images/stars.jpg');
     background-size: cover, cover;
     background-position: center center, center bottom;
+}
+
+section#contact h3 {
+    font-family: 'Raleway', sans-serif;
 }
