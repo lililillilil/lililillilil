@@ -38,7 +38,10 @@ contact:
   title: contact
   company: lililillilil
   email: contact
-  street: 68, rue Eugène Pons
-  zipcode: 69004
+  street: 24B rue des Tuileries
+  zipcode: 69009
   city: Lyon
   country: France
+
+social:
+  twitter: Follow us on <a href="https://twitter.com/lilil_art">Twitter</a>
