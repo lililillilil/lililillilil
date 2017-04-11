@@ -1,15 +1,26 @@
 app:
-  title: lililillilil
+  title: lililillilil - émotions audiovisuelles
   h1: lililillilil
   h2: Une expérience au cœur des images
   meta:
     title: Spectacles immersifs d'images et de sons
     description: >
-      lilililllilil crée des spectacles audiovisuels grandioses, une immersion dans le monde
+      lilililllilil crée des spectacles audiovisuels grandioses, immersions dans le monde
       magique des images et de la musique.
 
 index:
   title: Spectacles immersifs d'images et de sons
+
+imagine-vangogh:
+  title: Imagine Van Gogh
+  date: >
+    <time datetime="2017-06-23 10:00">23.06</time> →
+    <time datetime="2017-09-10 18:00">10.09.2017</time>
+  location: Grande Halle de la Villette, Paris
+
+section-title:
+  news: Actualité
+  projects: Projets
 
 vangogh:
   title: Van Gogh

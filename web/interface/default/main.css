@@ -18,6 +18,16 @@ section h3 {
     margin-bottom: 2em;
 }
 
+
+section.section-title {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 100;
+    background-color:#1b1b1b;
+    color:#999999;
+    text-transform: uppercase;
+}
+
 .lililillilil-type {
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
@@ -47,6 +57,13 @@ section h3 {
     height: 100%;
 }
 
+/* generic */
+.subtitled {
+    background-color: rgba(0,0,0,0.6);
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
 /*- INTRODUCTION -*/
 
 section#introduction {
@@ -68,6 +85,20 @@ h2 {
 
 #lililillilil-logo rect {
     fill: #ffffff;
+}
+
+/* IMAGINE VAN GOGH */
+section#imagine-van-gogh {
+    padding-top: 15em;
+    background-image: url('images/imagine-vangogh-almond.jpg');
+    background-size: cover, cover;
+    background-position: center center, center bottom;
+}
+
+@media only screen and (max-width: 375px) {
+    section#imagine-van-gogh {
+        background-image: url('images/imagine-vangogh-flowers.jpg');
+    }
 }
 
 /*- VAN GOGH -*/
