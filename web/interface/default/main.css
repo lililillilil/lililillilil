@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:100';
+@import 'https://fonts.googleapis.com/css?family=Raleway:300,700';
 
 html, body {
     padding:0;
@@ -6,6 +6,7 @@ html, body {
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
+    font-weight: 300;
 }
 
 section {
@@ -15,6 +16,7 @@ section {
 
 section h3 {
     text-transform: uppercase;
+    font-weight: 700;
     margin-bottom: 2em;
 }
 
@@ -22,7 +24,7 @@ section h3 {
 section.section-title {
     padding-top: 1em;
     padding-bottom: 1em;
-    font-weight: 100;
+    font-weight: 300;
     background-color:#1b1b1b;
     color:#999999;
     text-transform: uppercase;
@@ -38,16 +40,24 @@ section.section-title {
     content: "@lililillilil.com";
 }
 
-.video-wrapper-16x9 {
+
+.video-wrapper {
     max-width: 100%;
     display: block;
     position: relative;
     height: 0;
-    padding-bottom: 56.25%;
     margin-bottom: 2em ;
 }
 
-.video-wrapper-16x9 iframe {
+.video-wrapper-16x9 {
+    padding-bottom: 56.25%;
+}
+
+.video-wrapper-12x5 {
+    padding-bottom: 41.67%;
+}
+
+.video-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -77,7 +87,7 @@ section#introduction {
 
 h2 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     text-transform: uppercase;
     font-size: 2.2em;
     text-shadow: 0 0 0.1em #f7e271;
@@ -123,7 +133,7 @@ section#ldv {
 
 section#contact {
     font-family: sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     background-color:#1b1b1b;
     color:#999999;
 }
